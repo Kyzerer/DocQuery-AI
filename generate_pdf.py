@@ -103,7 +103,7 @@ class DocQueryPDF(FPDF):
         self.set_y(260)
         self.set_font("helvetica", "B", 10)
         self.set_text_color(75, 85, 99)
-        self.cell(0, 5, "Developer: Kyzerer & Antigravity AI", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.cell(0, 5, "Developer: Kyzerer", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         self.set_font("helvetica", "", 9)
         self.cell(0, 5, "Date: July 2026", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         
